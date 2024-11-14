@@ -298,10 +298,6 @@ def manually_fill():
             def attf():
                 import subprocess
 
-                subprocess.Popen(
-                    r'explorer /select,"C:/Users/patel/OneDrive/Documents/E/FBAS/Attendance(Manually)"'
-                )
-
             attf = tk.Button(
                 MFW,
                 text="Check Sheets",
